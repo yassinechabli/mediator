@@ -3,7 +3,7 @@
 an example for comment event . 
 when user tag someone in a comment , we send the notifiaction and an email to the user box using the mediator design pattern .
 
-#the output is : 
+# the output is : 
 
  Comment : Hello @konnetofast13 , have fun with this video :)
  
