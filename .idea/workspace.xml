@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="465ad305-9605-4580-ab14-93163c6fda38" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/EntityManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FacebookColleague.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FacebookMediator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/Notifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Colleague.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/Mailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediatorInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/FacebookMediatorInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.php" beforeDir="false" afterPath="$PROJECT_DIR$/Commenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Notifier.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Notifier.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Notifier.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="221">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -98,6 +87,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="221">
+                <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -114,7 +115,6 @@
         <option value="$PROJECT_DIR$/DataBase.php" />
         <option value="$PROJECT_DIR$/Client.php" />
         <option value="$PROJECT_DIR$/Server.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Mediator.php" />
         <option value="$PROJECT_DIR$/Colleague.php" />
         <option value="$PROJECT_DIR$/FacebookColleague.php" />
@@ -126,6 +126,7 @@
         <option value="$PROJECT_DIR$/Notifier.php" />
         <option value="$PROJECT_DIR$/Commenter.php" />
         <option value="$PROJECT_DIR$/Mailer.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -194,12 +195,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536766994067</updated>
       <workItem from="1536767003899" duration="12097000" />
-      <workItem from="1536830168745" duration="5316000" />
+      <workItem from="1536830168745" duration="5565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17413000" />
+    <option name="totallyTimeSpent" value="17662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -211,7 +212,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.15707965" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2931416" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13965885" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -295,16 +296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FacebookMediator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -372,8 +363,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Notifier.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="221">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
