@@ -6,15 +6,21 @@
  * Time: 17:34
  */
 
-include_once "Mediator.php";
-include_once "Client.php";
-include_once "Server.php";
-include_once "DataBase.php";
+include_once "FacebookMediator.php";
+include_once "Notifier.php";
+include_once "Commenter.php";
+include_once "Mailer.php";
+include_once "EntityManager.php";
 
-$client = new Client();
+// let's suppose the pseudo of the user used here is konnetrofast13 . the "@" is the tag
+$message = " Hello @konnetofast13 , have fun with this video :)";
 
-new Mediator(new Server() , $client , new DataBase());
+$commenter = new Commenter();
 
-$client->request();
+new FacebookMediator(new Notifier() , new Mailer() , $commenter , new EntityManager());
+
+
+$commenter->comment($message);
+
 
 
